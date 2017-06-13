@@ -1,7 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
+	
+	git init command creates your repository. First, there are no commits and tracking folders. 
+	When you run git status command you see no commited files including in results.   
+
+
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	Working directory doesn't contain git features. When you run 'git add'
+ 	command after git init, you add your file(s) to staging area. This feature 
+ 	is used to see your modifications before add them to main repository.
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
