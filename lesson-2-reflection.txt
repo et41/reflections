@@ -17,12 +17,18 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 
 
-	You can run 'git diff' and this show you what is the difference between your staging area and working directory. Then with 'git add file-name' you can add your file to staging area. Lastly, you can add your staged folder to commit part via 'git commit' command. 
+	You can run 'git diff' and this show you what is the difference between your staging area 
+	and working directory. Then with 'git add file-name' you can add your file to staging area. 
+	Lastly, you can add your staged folder to commit part via 'git commit' command. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	if you want to change your master code but you dont want to loose master code, you can create branch. This helps you to try new thoughts without breaking your current working code. 'git branch' command shows current branch(es). When you decide to create new branch, you must run 'git branch new-branch-name' command. 'git checkout branch-name' command switches your current branch to your desired branch.
+	if you want to change your master code but you dont want to loose master code, you can
+	create branch. This helps you to try new thoughts without breaking your current working code.
+	'git branch' command shows current branch(es). When you decide to create new branch, you must
+	run 'git branch new-branch-name' command. 'git checkout branch-name' command switches your current
+	branch to your desired branch.
 
 
 How do the diagrams help you visualize the branch structure?
@@ -30,7 +36,10 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-	after working separately on features or another part of code which we want to change, we might get togetger branches with master branch. so we use 'git merge branch_name1 branch_name2  ' to emerge two or more branches. then used the code, branches are going to become master branch so we can work on master branch with added new changes. 
+	after working separately on features or another part of code which we want to change,
+	we might get togetger branches with master branch. so we use 'git merge branch_name1 branch_name2' 
+	to merge two or more branches. then used the code, branches are going to become master branch
+	so we can work on master branch with added new changes. 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
