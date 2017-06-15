@@ -24,7 +24,7 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	if you want to change your master code but you dont want to loose master code, you can
+	if you want to change your master code but you dont want to lose master code, you can
 	create branch. This helps you to try new thoughts without breaking your current working code.
 	'git branch' command shows current branch(es). When you decide to create new branch, you must
 	run 'git branch new-branch-name' command. 'git checkout branch-name' command switches your current
